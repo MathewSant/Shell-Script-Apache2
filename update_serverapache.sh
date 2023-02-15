@@ -10,9 +10,6 @@ echo "Instalando Apache"
 apt install apache2
 cd /var/www/html
 rm -r index.html
-
-echo "Instalando o Unzip"
-
 apt install unzip
 
 echo "Configurando o servidor"
